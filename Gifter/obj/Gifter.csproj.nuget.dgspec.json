@@ -1,20 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Newforce.NEWFORCE-013\\workspace\\Cohort5\\teaching\\back-end\\book-two\\Gifter\\Gifter\\Gifter.csproj": {}
+    "C:\\Users\\newforce\\workspace\\cohort-five\\c#\\Gifter\\Gifter\\Gifter.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Newforce.NEWFORCE-013\\workspace\\Cohort5\\teaching\\back-end\\book-two\\Gifter\\Gifter\\Gifter.csproj": {
+    "C:\\Users\\newforce\\workspace\\cohort-five\\c#\\Gifter\\Gifter\\Gifter.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Newforce.NEWFORCE-013\\workspace\\Cohort5\\teaching\\back-end\\book-two\\Gifter\\Gifter\\Gifter.csproj",
+        "projectUniqueName": "C:\\Users\\newforce\\workspace\\cohort-five\\c#\\Gifter\\Gifter\\Gifter.csproj",
         "projectName": "Gifter",
-        "projectPath": "C:\\Users\\Newforce.NEWFORCE-013\\workspace\\Cohort5\\teaching\\back-end\\book-two\\Gifter\\Gifter\\Gifter.csproj",
-        "packagesPath": "C:\\Users\\Newforce.NEWFORCE-013\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Newforce.NEWFORCE-013\\workspace\\Cohort5\\teaching\\back-end\\book-two\\Gifter\\Gifter\\obj\\",
+        "projectPath": "C:\\Users\\newforce\\workspace\\cohort-five\\c#\\Gifter\\Gifter\\Gifter.csproj",
+        "packagesPath": "C:\\Users\\newforce\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\newforce\\workspace\\cohort-five\\c#\\Gifter\\Gifter\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
         "configFilePaths": [
-          "C:\\Users\\Newforce.NEWFORCE-013\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\newforce\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -59,6 +62,12 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.NETCore.App.Host.win-x64",
+              "version": "[5.0.13, 5.0.13]"
+            }
+          ],
           "frameworkReferences": {
             "Microsoft.AspNetCore.App": {
               "privateAssets": "none"
@@ -67,7 +76,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.201\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.101\\RuntimeIdentifierGraph.json"
         }
       }
     }

@@ -67,26 +67,44 @@ namespace Gifter.Repositories
                 using (var cmd = conn.CreateCommand())
                 {
                     cmd.CommandText = @"
-                          SELECT Title, Caption, DateCreated, ImageUrl, UserProfileId
+                          SELECT Post.Title, Post.Caption, Post.DateCreated, Post.ImageUrl, Post.UserProfileId as 'Post User Id', Comment.Id as 'Comment Id', Comment.Message, Comment.UserProfileId as 'Comment User Id'
                             FROM Post
-                           WHERE Id = @Id";
+                            LEFT JOIN Comment on Comment.PostId = Post.Id
+                            WHERE Post.Id = @Id";
 
                     DbUtils.AddParameter(cmd, "@Id", id);
 
                     var reader = cmd.ExecuteReader();
 
                     Post post = null;
-                    if (reader.Read())
+                    while(reader.Read())
                     {
-                        post = new Post()
+                        if(post == null)
                         {
-                            Id = id,
-                            Title = DbUtils.GetString(reader, "Title"),
-                            Caption = DbUtils.GetString(reader, "Caption"),
-                            DateCreated = DbUtils.GetDateTime(reader, "DateCreated"),
-                            ImageUrl = DbUtils.GetString(reader, "ImageUrl"),
-                            UserProfileId = DbUtils.GetInt(reader, "UserProfileId"),
-                        };
+                            post = new Post()
+                            {
+                                Id = id,
+                                Title = DbUtils.GetString(reader, "Title"),
+                                Caption = DbUtils.GetString(reader, "Caption"),
+                                DateCreated = DbUtils.GetDateTime(reader, "DateCreated"),
+                                ImageUrl = DbUtils.GetString(reader, "ImageUrl"),
+                                UserProfileId = DbUtils.GetInt(reader, "Post User Id"),
+
+                            };
+
+                        }
+                       
+
+                        // Check to see if we have comments before we mess with them
+                        if(DbUtils.GetNullableInt(reader, "Comment Id") != null)
+                        {
+                            post.Comments.Add(new Comment()
+                            {
+                                Id = DbUtils.GetInt(reader, "Comment Id"),
+                                Message = DbUtils.GetString(reader, "Message"),
+                                UserProfileId = DbUtils.GetInt(reader, "Comment User Id"),
+                            });
+                        }
                     }
 
                     reader.Close();
