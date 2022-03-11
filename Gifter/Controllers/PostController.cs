@@ -39,6 +39,14 @@ namespace Gifter.Controllers
             return Ok(posts);
         }
 
+        [HttpGet("Hottest")]
+        public IActionResult PostsByDate(DateTime since)
+        {
+            var posts = _postRepository.GetPostsByDate(since);
+            return Ok(posts);
+        }
+
+
         [HttpPost]
         public IActionResult Post(Post post)
         {
@@ -63,6 +71,12 @@ namespace Gifter.Controllers
         {
             _postRepository.Delete(id);
             return NoContent();
+        }
+
+        [HttpGet("search")]
+        public IActionResult Search(string q, bool sortDesc)
+        {
+            return Ok(_postRepository.Search(q, sortDesc));
         }
     }
 }

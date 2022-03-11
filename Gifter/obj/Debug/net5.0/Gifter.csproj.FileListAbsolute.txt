@@ -49,3 +49,5 @@ C:\Users\Newforce.NEWFORCE-013\workspace\Cohort5\teaching\back-end\book-two\Gift
 C:\Users\Newforce.NEWFORCE-013\workspace\Cohort5\teaching\back-end\book-two\Gifter\Gifter\obj\Debug\net5.0\Gifter.pdb
 C:\Users\Newforce.NEWFORCE-013\workspace\Cohort5\teaching\back-end\book-two\Gifter\Gifter\obj\Debug\net5.0\Gifter.genruntimeconfig.cache
 C:\Users\Newforce.NEWFORCE-013\workspace\Cohort5\teaching\back-end\book-two\Gifter\Gifter\obj\Debug\net5.0\ref\Gifter.dll
+C:\Users\Newforce.NEWFORCE-013\workspace\Cohort5\teaching\back-end\book-two\Gifter\Gifter\bin\Debug\net5.0\package-lock.json
+C:\Users\Newforce.NEWFORCE-013\workspace\Cohort5\teaching\back-end\book-two\Gifter\Gifter\bin\Debug\net5.0\package.json
