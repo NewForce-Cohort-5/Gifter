@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Newforce.NEWFORCE-013\\workspace\\Cohort5\\teaching\\back-end\\book-two\\Gifter\\Gifter\\Gifter.csproj": {}
+    "C:\\Users\\Newforce.NEWFORCE-013\\workspace\\Cohort5\\teaching\\back-end\\book-three\\Gifter\\Gifter\\Gifter.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Newforce.NEWFORCE-013\\workspace\\Cohort5\\teaching\\back-end\\book-two\\Gifter\\Gifter\\Gifter.csproj": {
+    "C:\\Users\\Newforce.NEWFORCE-013\\workspace\\Cohort5\\teaching\\back-end\\book-three\\Gifter\\Gifter\\Gifter.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Newforce.NEWFORCE-013\\workspace\\Cohort5\\teaching\\back-end\\book-two\\Gifter\\Gifter\\Gifter.csproj",
+        "projectUniqueName": "C:\\Users\\Newforce.NEWFORCE-013\\workspace\\Cohort5\\teaching\\back-end\\book-three\\Gifter\\Gifter\\Gifter.csproj",
         "projectName": "Gifter",
-        "projectPath": "C:\\Users\\Newforce.NEWFORCE-013\\workspace\\Cohort5\\teaching\\back-end\\book-two\\Gifter\\Gifter\\Gifter.csproj",
+        "projectPath": "C:\\Users\\Newforce.NEWFORCE-013\\workspace\\Cohort5\\teaching\\back-end\\book-three\\Gifter\\Gifter\\Gifter.csproj",
         "packagesPath": "C:\\Users\\Newforce.NEWFORCE-013\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Newforce.NEWFORCE-013\\workspace\\Cohort5\\teaching\\back-end\\book-two\\Gifter\\Gifter\\obj\\",
+        "outputPath": "C:\\Users\\Newforce.NEWFORCE-013\\workspace\\Cohort5\\teaching\\back-end\\book-three\\Gifter\\Gifter\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Newforce.NEWFORCE-013\\AppData\\Roaming\\NuGet\\NuGet.Config",

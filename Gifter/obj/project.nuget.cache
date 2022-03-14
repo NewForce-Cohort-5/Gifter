@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "4mSsReOcS/+6emrxr12WJYKIhI9F2BT8cv6gGIRj72BIaeXdPpyL4MGI+1X1rtDafVhKDA9X6+iu7bAOz6AZnA==",
+  "dgSpecHash": "XCbt3W+/oCYpkXA2BzjwLZSQQfMczRNNmdD4Yr2hDayZVuOiwd8kDOhf4LFaLM0g6nWRWzDaCKyu0rVq0lO4tg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Newforce.NEWFORCE-013\\workspace\\Cohort5\\teaching\\back-end\\book-two\\Gifter\\Gifter\\Gifter.csproj",
+  "projectFilePath": "C:\\Users\\Newforce.NEWFORCE-013\\workspace\\Cohort5\\teaching\\back-end\\book-three\\Gifter\\Gifter\\Gifter.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Newforce.NEWFORCE-013\\.nuget\\packages\\azure.core\\1.6.0\\azure.core.1.6.0.nupkg.sha512",
     "C:\\Users\\Newforce.NEWFORCE-013\\.nuget\\packages\\azure.identity\\1.3.0\\azure.identity.1.3.0.nupkg.sha512",
